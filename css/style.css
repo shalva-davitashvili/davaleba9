@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	width: 100%;
+}
+.container {
+	max-width: 1640px;
+	width: 100%;
+	margin: 50px auto;
+	align-items: center;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.archyEDTfont {
+	font-family: "ArchyEDT-Thin", sans-serif;
+	color: #707070;
+	-webkit-text-stroke: 1px #707070;
+}
+
+.menuBar li {
+	font-size: 20px;
+	margin-left: 4em;
+	letter-spacing: .1em;
+
+}
+
+/* article sections */
+
+.articleContainer {
+	flex-direction: column;
+	max-width: 485px;
+	width: 100%;
+	box-shadow: 2px 3px 2px 1px rgba(0, 0, 255, .1);
+}
+
+.articleTextContainer {
+	padding: 10px;
+}
+
+.sectionHeader {
+	font-size: 40px;
+	padding-bottom: 1em;
+}
+
+.articleHeader {
+	font-size: 30px;
+	padding: 1em 0;
+}
+
+.articleText p {
+	font-family: 'BPGArial';
+	font-size: 18px;
+	padding-bottom: .5em;
+}
+
+.moreButton {
+	font-size: 24px;
+	padding: .5em 0;
+}
+
+.loadMoreButton {
+	font-size: 30px;
+	border-bottom: 1px solid #707070;
+	padding: 0.1em 0;
+	margin: auto;
+}
+
+/* footer */
+
+.footer {
+	background-color: #2E2E2E;
+	color: #ffffff;
+	font-family: "ArchyEDT-Thin", sans-serif;
+	line-height: 1.2;
+}
+
+.icons li {
+	padding: 1em;
+}
+
+.footerSectionsText span {
+	font-size: 19px;
+}
+
+.footerSectionsText p {
+	font-size: 13px;
+}
+
+/* animation */
+
+.loadMoreButton:hover {
+	background-color: #D2D2D2;
+	padding: 0.1em 1em;
+	transition: 0.3s;
+}
+
+.moreButton:hover {
+	background-color: #D2D2D2;
+	transition: 0.3s;
+	width: fit-content;
+}
+
